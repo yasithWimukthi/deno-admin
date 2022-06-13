@@ -1,7 +1,7 @@
 // @ts-ignore
 import { Application, Router } from "https://deno.land/x/oak@v10.6.0/mod.ts";
 // @ts-ignore
-import router from "./routes.ts";
+import router from "./src/routes.ts";
 
 const app = new Application();
 
